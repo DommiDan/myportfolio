@@ -3,20 +3,21 @@
 }
 h1 {
     text-align: center;
+    color:white;
 }
 body {
-      background-image: url("./Assets/images/background-01.png");
+      background-image: url("./background-01.png");
       background-position: center center;
       background-repeat: no-repeat;
       background-position: top center !important;
       background-size: cover;
       align-items: center;
-      background-color: brown;
+      background-color:#121541;
 }
 .footer {
     bottom: 10px;
     width: 100%;
-    color: black;
+    color: white;
     text-align: center;
     padding: 40px;
  }
@@ -96,6 +97,9 @@ h1{
     stroke-dasharray: 494;
     stroke-dashoffset: 494;
     animation: line-anim 2s ease forwards 1.5s;
+}
+p{
+    color:whitesmoke;
 }
 @keyframes line-anim{
     to{
