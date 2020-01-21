@@ -1,5 +1,11 @@
 .space{
-    padding: 370px;
+    padding: 400px;
+}
+.navbar.navbar-expand-lg.navbar.navbar-dark.bg-dark {
+    color: white;
+}
+.bg-dark {
+    background-color: transparent;
 }
 h1 {
     text-align: center;
@@ -12,7 +18,7 @@ body {
       background-position: top center !important;
       background-size: cover;
       align-items: center;
-      background-color:#121541;
+      background-color:#090C21;
 }
 .footer {
     bottom: 10px;
@@ -35,13 +41,6 @@ body {
 .row3 {
     padding-top: 250px;
 }
-.nav.justify-content-center {
-
-    font: white;
-    font-size: 20px;
-    margin: 15px;
-    outline: none;
-}
 
 h1{
     padding-bottom: 65px;
@@ -53,7 +52,9 @@ h1{
     left: 50px;
     animation: fill 0.5s ease forwards 2s;
 }
-
+.navbar-dark.navbar-brand{
+    padding-left: 500px;
+}
 #divide{
     padding-top: 80px;
 }
@@ -100,6 +101,11 @@ h1{
 }
 p{
     color:whitesmoke;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar-nav {
+    padding-left: 975px;
 }
 @keyframes line-anim{
     to{
