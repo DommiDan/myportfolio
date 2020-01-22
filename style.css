@@ -46,26 +46,16 @@ body {
       background-color:#090C21;
       background-size: cover;
 }
-.footer {
-    bottom: 10px;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 40px;
- }
 svg{
     max-width: 100%;
     padding-left: 30px;
 }
- .image-footer {
-     text-align: center;
- }
  
  .row1{
      padding-top: 150px;
  }
  .row2 {
-    padding-top: 350px;
+    padding-top: 150px;
 }
 .row3 {
     padding-top: 250px;
@@ -225,6 +215,13 @@ img {
     width: 60%;
     height: 30%;
 }
+
+.avatar {
+    padding-top: 180px;
+    width: 95%;
+    height: 30%;
+}
+
 .size{
     width: 351px;
     height: 263px;
