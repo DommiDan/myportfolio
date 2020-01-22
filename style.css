@@ -1,4 +1,29 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Gelasio', serif;
+font-family: 'Bangers', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Alata', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'VT323', monospace;*/
+
+.navbar-brand, .nav-item {
+    font-family:'Permanent Marker', Arial ;
+    padding-left: 30px;
+}
 .space{
+  /*background-image: url("./twinkle.gif");*/
     padding: 400px;
 }
 .navbar.navbar-expand-lg.navbar.navbar-dark.bg-dark {
@@ -19,6 +44,7 @@ body {
       background-size: cover;
       align-items: center;
       background-color:#090C21;
+      background-size: cover;
 }
 .footer {
     bottom: 10px;
@@ -29,6 +55,7 @@ body {
  }
 svg{
     max-width: 100%;
+    padding-left: 30px;
 }
  .image-footer {
      text-align: center;
@@ -154,7 +181,6 @@ h1{
     animation: line-anim 2s ease forwards 2.1s;
 }
 
-
 #logo3 path:nth-child(1){
     stroke-dasharray: 706;
     stroke-dashoffset: 706;
@@ -195,7 +221,14 @@ h1{
     stroke-dashoffset: 685;
     animation: line-anim 2s ease forwards 2.4s;
 }
-
+img {
+    width: 60%;
+    height: 30%;
+}
+.size{
+    width: 351px;
+    height: 263px;
+}
 p{
     color:whitesmoke;
     padding-left: 100px;
@@ -203,7 +236,7 @@ p{
     padding-top:50px;
 }
 .navbar-nav {
-    padding-left: 975px;
+    padding-left: 930px;
 }
 @keyframes line-anim{
     to{
