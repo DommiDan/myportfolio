@@ -17,7 +17,9 @@ font-family: 'Kalam', cursive;
 font-family: 'Press Start 2P', cursive;
 font-family: 'Nanum Pen Script', cursive;
 font-family: 'VT323', monospace;*/
-
+span{
+    padding: 20px;
+}
 .navbar-brand, .nav-item {
     font-family:'Permanent Marker', Arial ;
     padding-left: 30px;
