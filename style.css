@@ -228,6 +228,14 @@ img {
     width: 351px;
     height: 263px;
 }
+.padding {
+    padding-bottom: 300px;
+}
+.ui.inverted.segment {
+    background: transparent;
+    padding-top: 50px;
+    text-align: center;
+}
 p{
     color:whitesmoke;
     padding-left: 100px;
